@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GOPATH: $GITHUB_WORKSPACE
-      PATH: $PATH:$GOPATH
     steps:
 
     - name: Set up Go 1.13
