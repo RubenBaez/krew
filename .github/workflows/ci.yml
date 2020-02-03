@@ -1,4 +1,4 @@
-name: Kubernetes-sigs/krew CI
+name: CI
 on: 
   push:
     branches: 
@@ -12,7 +12,7 @@ on:
 jobs:
 
   golangci-lint-github-check:
-    name: runner / golangci-lint (github-check)
+    name: golangci-lint (github-check)
     runs-on: ubuntu-latest
     steps:
       - name: Check out code into the Go module directory
