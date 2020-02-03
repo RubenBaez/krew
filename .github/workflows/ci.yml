@@ -14,7 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GOPATH: $GITHUB_WORKSPACE
+      GOPATH: $HOME/go/bin
     steps:
 
     - name: Set up Go 1.13
