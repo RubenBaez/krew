@@ -27,7 +27,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: set PATH
-      run: echo "::add-path::$HOME/go/bin"
+      run: echo "::add-path::${GOPATH}/bin"
     
     - name: Install dependencies
       run: go mod download
